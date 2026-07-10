@@ -98,14 +98,14 @@ export default function Home() {
         <div className="container">
           <h2 className="section-title">Inspect Our Data Quality</h2>
           <p className="section-subtitle">
-            Here is a sample preview of our Texas dental clinic lead pack. Every row is verified and ready for outreach.
+            Preview a few rows from our Texas dental prospect pack. Each lead is checked for website status, audit confidence, visible SEO/tracking gaps, and a usable outreach hook.
           </p>
           <div className="table-container">
             <table>
               <thead>
                 <tr>
-                  <th>Clinic Name</th>
-                  <th>Location</th>
+                  <th>Clinic</th>
+                  <th>City</th>
                   <th>Priority</th>
                   <th>Main Problem</th>
                   <th>Suggested First Line</th>
@@ -113,39 +113,39 @@ export default function Home() {
               </thead>
               <tbody>
                 <tr>
-                  <td><strong>ATX Family Dental</strong></td>
-                  <td>Austin, TX</td>
+                  <td><strong>Inwood Family Dental</strong></td>
+                  <td>San Antonio</td>
+                  <td><span className="badge badge-high">High</span></td>
+                  <td>Missing GA/GTM and Meta Pixel</td>
+                  <td>"I noticed your website is missing standard Google Analytics and Meta Pixel trackers, which means you may not be able to track website conversions clearly or retarget visitors."</td>
+                </tr>
+                <tr>
+                  <td><strong>Katy Dental Experts</strong></td>
+                  <td>Katy</td>
                   <td><span className="badge badge-medium">Medium</span></td>
-                  <td>Weak title, missing meta description, no GA/GTM, no Meta Pixel</td>
-                  <td>"I noticed your website has a generic title tag and is missing both Google Analytics and Meta Pixel tracking..."</td>
+                  <td>Missing GA/GTM and Meta Pixel</td>
+                  <td>"I noticed your website is missing standard Google Analytics and Meta Pixel trackers, which means you may not be able to track website conversions clearly or launch social retargeting."</td>
+                </tr>
+                <tr>
+                  <td><strong>ATX Family Dental</strong></td>
+                  <td>Austin</td>
+                  <td><span className="badge badge-medium">Medium</span></td>
+                  <td>Weak title tag, missing meta description, no GA/GTM, no Meta Pixel</td>
+                  <td>"I noticed your website has a generic title tag and is missing both Google Analytics and Meta Pixel tracking, which makes it harder to monitor and retarget prospective patients."</td>
                 </tr>
                 <tr>
                   <td><strong>Parkfield Dental Care</strong></td>
-                  <td>Austin, TX</td>
+                  <td>Austin</td>
                   <td><span className="badge badge-medium">Medium</span></td>
                   <td>Weak title tag, no GA/GTM, no Meta Pixel</td>
                   <td>"I noticed your website is missing standard Google Analytics and Meta Pixel trackers, which means website visitors may not be available for Meta retargeting campaigns."</td>
                 </tr>
                 <tr>
-                  <td><strong>Mission Bend Dental</strong></td>
-                  <td>Mission Bend, TX</td>
+                  <td><strong>Round Rock Family Dental</strong></td>
+                  <td>Round Rock</td>
                   <td><span className="badge badge-low">Low</span></td>
-                  <td>Weak title tag, no Meta Pixel</td>
-                  <td>"I noticed your website has a great structure but is missing a Meta Pixel, meaning you're unable to run retargeting ads to patients..."</td>
-                </tr>
-                <tr>
-                  <td><strong>Stonebriar Family Dentistry</strong></td>
-                  <td>Frisco, TX</td>
-                  <td><span className="badge badge-low">Low</span></td>
-                  <td>Weak title tag, missing meta description</td>
-                  <td>"I noticed your homepage is missing a meta description tag, which means Google has to auto-generate the snippet..."</td>
-                </tr>
-                <tr>
-                  <td><strong>Austin Dental Care</strong></td>
-                  <td>Austin, TX</td>
-                  <td><span className="badge badge-low">Low</span></td>
-                  <td>No Meta Pixel visible</td>
-                  <td>"I noticed your site has basic tracking in place but doesn't have a Meta Pixel installed, which means website visitors may not be available for Meta retargeting campaigns."</td>
+                  <td>Missing Meta Pixel</td>
+                  <td>"I noticed your website has a great structure but is missing a Meta Pixel, meaning you are unable to run retargeting ads to patients on Facebook or Instagram."</td>
                 </tr>
               </tbody>
             </table>
